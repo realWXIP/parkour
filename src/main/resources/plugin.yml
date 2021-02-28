@@ -1,0 +1,7 @@
+name: SideParkour
+version: 1.0.2
+author: CMNTS
+main: lv.cmnts.Parkour.Parkour
+commands:
+  parkour:
+depend: [Multiverse-Core]

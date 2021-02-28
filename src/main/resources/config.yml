@@ -1,0 +1,29 @@
+parkour:
+  gatemin:
+    x: -101
+    y: 146
+    z: -44
+    world: "Parkour"
+  gatemax:
+    x: -97
+    y: 149
+    z: -44
+    world: "Parkour"
+
+  lowestpoint: 45
+
+# 'gateopen' un 'gateclose' ir jāievieto spigot material!
+#
+# Material saraksts - https://helpch.at/docs/1.8/org/bukkit/Material.html
+#
+
+gateopen: "AIR" # bloks, kurš tiks iesetots, kad atveras vārti parkouram.
+gateclose: "GLASS" # bloks, kurš tiks iesetots, kad aizveras vārti parkouram.
+
+tppitch: 0
+tpyaw: 0
+
+message:
+  event-name: "Parkour"
+  reach-checkpoint: " &8» &aYou have reached a checkpoint!"
+  reach-finish: "parkour" # Tas pats kas event-name, tikai ar mazajiem burtiem!
